@@ -1,0 +1,6 @@
+#include "../include/Resources.h"
+
+1	ICON	"..\\resources\\cinder_app_icon.ico"
+
+SHADER_VERT
+SHADER_FRAG

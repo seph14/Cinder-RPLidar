@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Cinder-RPLidar"
+	id="solid-jellyfish.cinder.lidar"
+	author="Seph Li"
+	license="GNU"
+	summary="A Cinder block that talks to RPLidar."
+	url="https://github.com/seph14/Cinder-RPLidar"
+	>
+	<supports os="msw" />
+
+	<includePath>include</includePath>
+	<includePath>include/hal</includePath>
+	<includePath>src</includePath>
+
+	<headerPattern>include/*.h</headerPattern>
+	<headerPattern>src/*.h</headerPattern>
+	<headerPattern>src/hal/*.h</headerPattern>
+	
+	<source>src/rplidar_driver.cpp</source>
+	<source>src/hal/thread.cpp</source>
+
+	<platform os="macosx">
+		<headerPattern>src/arch/macOS/*.h</headerPattern>
+		<sourcePattern>src/arch/macOS/*.cpp</sourcePattern>
+	</platform>
+	<platform os="msw">
+		<headerPattern>src/arch/win32/*.h</headerPattern>
+		<sourcePattern>src/arch/win32/*.cpp</sourcePattern>
+	</platform>
+</block>
+</cinder>

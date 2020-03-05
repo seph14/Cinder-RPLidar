@@ -1,0 +1,163 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{6B114895-2F3E-4730-B896-1929F270D244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-RPILidar">
+      <UniqueIdentifier>{43A6D95C-8DC7-4E7B-8478-7851B90689ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-RPILidar\include">
+      <UniqueIdentifier>{1879559C-B4A7-4793-997F-803D2B2047DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-RPILidar\src">
+      <UniqueIdentifier>{DC86CABF-C679-4DEC-A4C7-70D151E5B6EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-RPILidar\src\hal">
+      <UniqueIdentifier>{D5764787-1D75-4CFB-85DD-0ABAD229FB39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-RPILidar\src\arch">
+      <UniqueIdentifier>{41234FEB-5F7E-41DA-B67E-FFB3BB5946D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-RPILidar\src\arch\win32">
+      <UniqueIdentifier>{D1090929-E485-4F29-AFB0-6247B9AFEAF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC">
+      <UniqueIdentifier>{338EE095-D98C-475E-AF1B-E581582C77DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src">
+      <UniqueIdentifier>{26BFA09A-3E12-4359-9AD8-6B597F71F3F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\cinder">
+      <UniqueIdentifier>{67FEB208-567C-4739-8B0F-8A8B7E0643BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\cinder\osc">
+      <UniqueIdentifier>{B7E32160-83E9-4842-8056-ED8BA7A38E96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\SampleApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SampleApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Convert.h">
+      <Filter>Blocks\Cinder-RPILidar\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rplidar.h">
+      <Filter>Blocks\Cinder-RPILidar\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rplidar_cmd.h">
+      <Filter>Blocks\Cinder-RPILidar\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rplidar_driver.h">
+      <Filter>Blocks\Cinder-RPILidar\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rplidar_protocol.h">
+      <Filter>Blocks\Cinder-RPILidar\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rptypes.h">
+      <Filter>Blocks\Cinder-RPILidar\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rplidar_driver_impl.h">
+      <Filter>Blocks\Cinder-RPILidar\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rplidar_driver_serial.h">
+      <Filter>Blocks\Cinder-RPILidar\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rplidar_driver_TCP.h">
+      <Filter>Blocks\Cinder-RPILidar\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sdkcommon.h">
+      <Filter>Blocks\Cinder-RPILidar\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hal\abs_rxtx.h">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hal\assert.h">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hal\byteops.h">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hal\event.h">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hal\locker.h">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hal\socket.h">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hal\thread.h">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hal\types.h">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hal\util.h">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\rplidar_driver.cpp">
+      <Filter>Blocks\Cinder-RPILidar\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hal\thread.cpp">
+      <Filter>Blocks\Cinder-RPILidar\src\hal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\arch\win32\arch_win32.h">
+      <Filter>Blocks\Cinder-RPILidar\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\arch\win32\net_serial.h">
+      <Filter>Blocks\Cinder-RPILidar\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\arch\win32\timer.h">
+      <Filter>Blocks\Cinder-RPILidar\src\arch\win32</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\arch\win32\net_serial.cpp">
+      <Filter>Blocks\Cinder-RPILidar\src\arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\arch\win32\net_socket.cpp">
+      <Filter>Blocks\Cinder-RPILidar\src\arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\arch\win32\timer.cpp">
+      <Filter>Blocks\Cinder-RPILidar\src\arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OSC\src\cinder\osc\Osc.cpp">
+      <Filter>Blocks\OSC\src\cinder\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\OSC\src\cinder\osc\Osc.h">
+      <Filter>Blocks\OSC\src\cinder\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\KMeans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\KMeans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

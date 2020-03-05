@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<params>
+	<oscReceiver>127.0.0.1</oscReceiver>
+	<oscPort>9999</oscPort>
+	<frameRate>60</frameRate>
+	<showView>true</showView>
+	<time>
+		<hour>25</hour>
+		<minute>1</minute>
+	</time>
+	<lidar>
+		<port>com3</port>
+		<angle>0</angle>
+		<topdown>true</topdown>
+		<position>
+			<x>215</x>
+			<y>5</y>
+		</position>
+		<min>
+			<x>30</x>
+			<y>30</y>
+		</min>
+		<max>
+			<x>1503</x>
+			<y>821</y>
+		</max>
+		<slope>135</slope>
+		<threshold>1</threshold>
+	</lidar>
+	<filter>
+		<dot>
+			<x>1400</x>
+			<y>1350</y>
+			<r>50</r>
+		</dot>
+	</filter>
+</params>
